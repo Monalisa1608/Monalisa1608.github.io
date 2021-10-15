@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+		<nav>
+			<div class="navbar">
+				<ul>
+        <li><a href="#"><i class="fa fa-github" aria-hidden="true"> Github</i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"> Instagram</i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true">Facebbok</i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true">Twitter</i></a></li>
+				<li><a href="#"><i class="fa fa-google" aria-hidden="true"> Google</i></a></li>
+				<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"> Gmail</i></a></li>
+			</ul>
+            </div>
+		</nav>
+<div class="contact-section">
+
+  <h1>Contact Us</h1>
+
+  <form class="contact-form" action="index.html" method="post">
+  <input type="text" class="contact-form-text" placeholder="Your name">
+  <input type="email" class="contact-form-text" placeholder="Your email">
+  <input type="text" class="contact-form-text" placeholder="Your phone">
+  <textarea class="contact-form-text" placeholder="Your message"></textarea>
+  <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+</div>
+    <footer>Designed by <b><i>@contactform.com</i></b></footer>
+  </body>
+</html>
